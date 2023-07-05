@@ -1,0 +1,21 @@
+# Input file for aluminum plate
+# Lines beginning with # are comments
+
+# Grid size
+Nx 256
+Ny 256
+
+# Solver parameters
+timesteps 1000
+time_increment 1000
+method euler
+spatial_variation constant
+
+# Initial conditions
+initial_temperature droplet 
+heat_generation constant
+
+# Aluminum material properties
+cp 900
+rho 2700
+k 210
